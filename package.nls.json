@@ -1,0 +1,10 @@
+{
+	"displayName": "MyDoc",
+	"description": "Provides preview support for MyDoc.",
+
+	"MyDoc.preview.title": "Open Preview",
+	"MyDoc.preview.refresh.title": "Refresh Preview",	
+	"MyDoc.previewSide.title": "Open Preview to the Side",
+	"MyDoc.showSource.title": "Show Source",
+	"MyDoc.trace.desc": "Enable debug logging for the MyDoc extension."
+}

@@ -1,0 +1,12 @@
+**/*.ts
+**/*.vsix
+**/*.pdf
+.vscode
+node_modules
+out/
+package-json.lock
+script/
+src/**
+**/tsconfig.json
+**/*.ts
+webpack*.js

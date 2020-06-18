@@ -1,0 +1,9 @@
+{
+    "@metadata":{},
+    "en":
+    {
+        "MyDoctor-vscode-title": "MyDoctor vscode",
+        "MyDoctor-vscode-replace": "replace",
+        "MyDoctor-vscode-cancel": "cancel"
+    }
+}
