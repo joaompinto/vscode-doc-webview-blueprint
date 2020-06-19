@@ -26,3 +26,14 @@ From the new VSCode Window do:
 - CTRL + K followed by V (To open the side preview)
 
 Type some text and see it being rendered on the side preview
+
+For starters the code required for the extension setup and document preview window can feel overwhelming, the core html generation is quite simple:
+
+```typescript
+public async parseText(text: string): Promise<string> {
+  return new Promise<string>((resolve) => {
+    // Add bold
+    resolve('<b>' + text +'</b>');
+  });
+}
+```
