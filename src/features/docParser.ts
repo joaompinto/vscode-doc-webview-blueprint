@@ -8,7 +8,8 @@ export class DocParser {
 
     public async parseText(text: string): Promise<string> {
       return new Promise<string>((resolve) => {
-        resolve(text);
+        // Add bold
+        resolve('<b>' + text +'</b>');
       });
     }
 }
